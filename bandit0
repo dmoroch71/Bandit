@@ -1,0 +1,8 @@
+[+] BANDIT LEVEL 0
+		
+For this level the purpose is to conect the server using the ssh protocol and , port 2220. Using the following credentials: 
+
+[+] command used: sudo ssh -p2220 bandit1@bandit.labs.overthewire.org
+[+] username for bandit0 : bandit0
+[+] password for bandit1 : bandit0
+[+] password obtained --> " ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If "
