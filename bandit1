@@ -1,0 +1,18 @@
+[+] BANDIT LEVEL 1
+                
+In the first level, there is a file named "-". I cannot use $cat or $nano because the "-" holds until a parameter is given. I rater >
+You can use the following scripts to obtain your passwd:
+        
+        --> cat /home/$USER/-
+        -->cat /$(pwd)/-
+
+To practice SYSTEM-LEVEL QUERY and complicate it a little bit more. I used grep
+
+$ grep -r "\w" 2>/dev/null | tail -n 1 | tr ":" " " |awk "{print $1}"
+$ grep -r "\w" 2>/dev/null | tail -n 1 | cut -d ":" -f2
+
+
+[+] command used: sudo ssh -p2220 bandit1@bandit.labs.overthewire.org
+[+] password for bandit1 : " ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If "
+[+] password for bandit2 : "  "263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+                                                                
